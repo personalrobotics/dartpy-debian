@@ -20,12 +20,14 @@ override_dh_auto_test:
 
 override_dh_auto_install:
 	dh_auto_configure -- \
-	    -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DDARTPY_PYTHON_VERSION=3
+	    -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DDARTPY_PYTHON_VERSION=3 \
+            -DCMAKE_CXX_FLAGS="-fabi-version=6"
 	dh_auto_build
 	dh_auto_install
 	rm -rf obj-*-linux-gnu
 	dh_auto_configure -- \
-	    -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DDARTPY_PYTHON_VERSION=2
+	    -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DDARTPY_PYTHON_VERSION=2 \
+            -DCMAKE_CXX_FLAGS="-fabi-version=6"
 	dh_auto_build
 	dh_auto_install
 

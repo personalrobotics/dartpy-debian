@@ -1,4 +1,10 @@
-python-dartpy (0.0.1.ppa0~xenial) xenial; urgency=medium
+python-dartpy (0.0.2.ppa0~xenial) xenial; urgency=medium
+
+  * DART 6.5.0
+
+ -- Jeongseok Lee <jslee02@gmail.com>  Fri, 18 May 2018 23:59:59 -0700
+
+python-dartpy (0.0.1.ppa2~xenial) xenial; urgency=medium
 
   * Initial release
 
