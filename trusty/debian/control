@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Jeongseok Lee <jslee02@gmail.com>
 Build-Depends: debhelper (>= 9.0.0), 
                cmake,
+               chimera (>= 0.0.3),
                libboost-dev,
                libboost-python-dev,
                libboost-python-numpy-dev,
