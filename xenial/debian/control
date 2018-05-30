@@ -16,14 +16,14 @@ Standards-Version: 3.9.2
 
 Package: python-dartpy
 Section: libs
-Architecture: any
+Architecture: amd64
 Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}, python-numpy, python-boost-numpy-eigen
 Description: Python bindings for the Dynamic Animation and Robotics Toolkit - Shared Library
  Python bindings for the Dynamic Animation and Robotics Toolkit.
 
 Package: python3-dartpy
 Section: libs
-Architecture: any
+Architecture: amd64
 Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}, python3-numpy, python3-boost-numpy-eigen
 Description: Python bindings for the Dynamic Animation and Robotics Toolkit - Shared Library
  Python bindings for the Dynamic Animation and Robotics Toolkit.
