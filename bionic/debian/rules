@@ -24,11 +24,13 @@ override_dh_auto_install:
 	dh_auto_build -- binding
 	dh_auto_build
 	dh_auto_install
+	dh_auto_build -- pytest
 	rm -rf obj-*-linux-gnu
 	dh_auto_configure -- \
 	    -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DDARTPY_PYTHON_VERSION=2
 	dh_auto_build
 	dh_auto_install
+	dh_auto_build -- pytest
 
 %:
 	dh $@ --buildsystem=cmake --parallel
