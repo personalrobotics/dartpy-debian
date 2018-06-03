@@ -9,6 +9,8 @@ Build-Depends: debhelper (>= 11.0.0),
                libboost-python-dev,
                python-dev,
                python3-dev,
+               python-pytest,
+               python3-pytest,
                libdart6-all-dev
 Homepage: https://github.com/personalrobotics/pr_control_msgs
 Standards-Version: 3.9.2
