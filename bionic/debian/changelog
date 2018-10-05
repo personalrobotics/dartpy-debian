@@ -1,3 +1,9 @@
+python-dartpy (0.0.3) bionic; urgency=medium
+
+  * DART 6.6.0
+
+ -- Jeongseok Lee <jslee02@gmail.com>  Fri, 05 Oct 2018 23:59:59 -0700
+
 python-dartpy (0.0.2.ppa4~bionic) bionic; urgency=medium
 
   * DART 6.5.0
